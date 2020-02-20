@@ -19,4 +19,8 @@ public class UsuariosService {
                 Collectors.toList()).get(0);
     }
 
+    public void inserirUsuario(Usuario usuario){
+        this.usuariosDAO.inserirUsuario(usuario);
+    }
+
 }

@@ -18,4 +18,8 @@ public class UsuariosDAO {
     public List<Usuario> getUsuarios() {
         return this.usuarios;
     }
+
+    public void inserirUsuario(Usuario usuario){
+        this.usuarios.add(usuario);
+    }
 }
